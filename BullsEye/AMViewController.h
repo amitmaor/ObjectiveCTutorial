@@ -10,4 +10,6 @@
 
 @interface AMViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
