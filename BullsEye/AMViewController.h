@@ -15,5 +15,6 @@
 - (IBAction)sliderMoved:(UISlider *)slider;
 
 @property (nonatomic, weak) IBOutlet UISlider *slider;
+@property (nonatomic, weak) IBOutlet UILabel *targetLabel;
 
 @end

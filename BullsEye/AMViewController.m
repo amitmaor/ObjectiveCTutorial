@@ -21,15 +21,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _currentValue = self.slider.value;
-    _targetValue = 1 + arc4random_uniform(100);
+    [self startNewRound];
+    [self updateLabels];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)startNewRound
+{
+    _targetValue = 1 + arc4random_uniform(100);
+    _currentValue = 50;
+    self.slider.value = _currentValue;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)updateLabels
+{
+    self.targetLabel.text = [NSString stringWithFormat:@"%d",
+                             _targetValue];
+    
 }
 
 - (IBAction)showAlert
@@ -44,7 +58,10 @@
       cancelButtonTitle:@"OK"
       otherButtonTitles:nil];
     
-    [alertView show]; }
+    [alertView show];
+    [self startNewRound];
+    [self updateLabels];
+}
 
 - (IBAction)sliderMoved:(UISlider *)slider
 {
