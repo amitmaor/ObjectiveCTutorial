@@ -14,4 +14,6 @@
 
 - (IBAction)sliderMoved:(UISlider *)slider;
 
+@property (nonatomic, weak) IBOutlet UISlider *slider;
+
 @end
