@@ -14,6 +14,8 @@
 
 - (IBAction)sliderMoved:(UISlider *)slider;
 
+- (IBAction)startOver;
+
 @property (nonatomic, weak) IBOutlet UISlider *slider;
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
 @property (nonatomic, weak) IBOutlet UILabel *scoreLabel;
