@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AMViewController : UIViewController
+@interface AMViewController : UIViewController <UIAlertViewDelegate>
 
 - (IBAction)showAlert;
 
