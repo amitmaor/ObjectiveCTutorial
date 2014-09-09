@@ -21,6 +21,7 @@
 		E31CE63819BA268800ACAE61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31CE61A19BA268800ACAE61 /* UIKit.framework */; };
 		E31CE64019BA268800ACAE61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31CE63E19BA268800ACAE61 /* InfoPlist.strings */; };
 		E31CE64219BA268800ACAE61 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31CE64119BA268800ACAE61 /* BullsEyeTests.m */; };
+		E3820C8719BEBBCF00131B55 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3820C8619BEBBCF00131B55 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E31CE63D19BA268800ACAE61 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		E31CE63F19BA268800ACAE61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E31CE64119BA268800ACAE61 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		E3820C8519BEBBCF00131B55 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E3820C8619BEBBCF00131B55 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E31CE62819BA268800ACAE61 /* Main.storyboard */,
 				E31CE62B19BA268800ACAE61 /* AMViewController.h */,
 				E31CE62C19BA268800ACAE61 /* AMViewController.m */,
+				E3820C8519BEBBCF00131B55 /* AboutViewController.h */,
+				E3820C8619BEBBCF00131B55 /* AboutViewController.m */,
 				E31CE62E19BA268800ACAE61 /* Images.xcassets */,
 				E31CE61D19BA268800ACAE61 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				E31CE62719BA268800ACAE61 /* AMAppDelegate.m in Sources */,
 				E31CE62D19BA268800ACAE61 /* AMViewController.m in Sources */,
+				E3820C8719BEBBCF00131B55 /* AboutViewController.m in Sources */,
 				E31CE62319BA268800ACAE61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				E31CE64719BA268800ACAE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31CE64819BA268800ACAE61 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				E31CE64A19BA268800ACAE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
